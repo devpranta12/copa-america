@@ -1,0 +1,43 @@
+body{
+    background-color: blue;
+
+}
+.container{
+    background-color: blue;
+    margin: auto;
+    height: 677px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.copa-text{
+    margin-left: 70px;
+    font-size: 50px;
+    font-weight: 700;
+    color: white;
+}
+.copa-img{
+    margin: 40px;
+}
+.copa-img img{
+    width: 560px;
+    height: 430px;
+}
+.copa-img:hover{
+    transform: translate(50px, 50px) scale(0.6) rotate(360deg);
+    transition: width 1s, height 2s, transform 4s;
+}
+.btn{
+    text-decoration: none;
+    background-color: yellow;
+    padding: 10px 30px;
+    color: purple;
+    font-weight: 500;
+    border: none;
+    font-size: 20px;
+    border-radius: 20px;
+    margin-top: 0;
+    width: 200px;
+
+}
